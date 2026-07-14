@@ -398,5 +398,3 @@ LinkedIn: https://linkedin.com/in/your-profile
 GitHub: https://github.com/yourusername
 
 ---
-
-## ⭐ If you found this project useful, please consider giving it a star.
