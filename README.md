@@ -1,10 +1,10 @@
-# 📊 Financial Performance Dashboard | Power BI
+# Financial Performance Dashboard | Power BI
 
 ![Power BI](https://img.shields.io/badge/Tool-Power%20BI-F2C811?logo=powerbi&logoColor=black)
 ![DAX](https://img.shields.io/badge/DAX-Time%20Intelligence-blue)
 ![Excel](https://img.shields.io/badge/Dataset-Microsoft%20Financial%20Sample-green)
 
-## 📌 Project Overview
+## Project Overview
 
 This project presents an **interactive Financial Performance Dashboard** developed in **Microsoft Power BI** using Microsoft's Financial Sample dataset.
 
@@ -14,7 +14,7 @@ The dashboard is designed from the perspective of a **Financial Data Analyst**, 
 
 ---
 
-# 🎯 Business Objectives
+# Business Objectives
 
 This dashboard answers the following business questions:
 
@@ -28,7 +28,7 @@ This dashboard answers the following business questions:
 
 ---
 
-# 📊 Dashboard Pages
+# Dashboard Pages
 
 ## 1️⃣ Executive Dashboard
 
@@ -204,7 +204,7 @@ Track business performance over time.
 
 ---
 
-# 📈 DAX Measures
+# DAX Measures
 
 This project includes several custom DAX calculations.
 
@@ -230,7 +230,7 @@ This project includes several custom DAX calculations.
 
 ---
 
-# 🧠 Analytical Techniques Used
+# Analytical Techniques Used
 
 - KPI Development
 - Financial Ratio Analysis
@@ -245,7 +245,7 @@ This project includes several custom DAX calculations.
 
 ---
 
-# 🛠 Tools & Technologies
+# Tools & Technologies
 
 - Microsoft Power BI
 - Power Query
@@ -255,7 +255,7 @@ This project includes several custom DAX calculations.
 
 ---
 
-# 📂 Dataset
+# Dataset
 
 **Dataset:** Microsoft Financial Sample Dataset
 
@@ -274,7 +274,7 @@ The dataset contains financial transactions including:
 
 ---
 
-# 📸 Dashboard Preview
+# Dashboard Preview
 
 ## Executive Dashboard
 
@@ -318,7 +318,7 @@ The dataset contains financial transactions including:
 
 ---
 
-# 📁 Repository Structure
+# Repository Structure
 
 ```
 Financial-Performance-Dashboard
@@ -345,7 +345,7 @@ Financial-Performance-Dashboard
 
 ---
 
-# 💼 Skills Demonstrated
+# Skills Demonstrated
 
 - Business Intelligence
 - Financial Analysis
@@ -360,7 +360,7 @@ Financial-Performance-Dashboard
 
 ---
 
-# 🚀 Business Impact
+# Business Impact
 
 This dashboard enables business stakeholders to:
 
@@ -373,7 +373,7 @@ This dashboard enables business stakeholders to:
 
 ---
 
-# 👨‍💻 About Me
+# About Me
 
 **Your Name**
 
@@ -391,11 +391,11 @@ Aspiring Data Analyst | Power BI Developer | SQL | Python | Excel
 - Data Analysis
 - Data Visualization
 
-📧 Email: your-email@example.com
+Email: your-email@example.com
 
-💼 LinkedIn: https://linkedin.com/in/your-profile
+LinkedIn: https://linkedin.com/in/your-profile
 
-🐙 GitHub: https://github.com/yourusername
+GitHub: https://github.com/yourusername
 
 ---
 
