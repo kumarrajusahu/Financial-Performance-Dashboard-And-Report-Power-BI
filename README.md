@@ -30,7 +30,7 @@ This dashboard answers the following business questions:
 
 # Dashboard Pages
 
-## 1️⃣ Executive Dashboard
+## 1️ Executive Dashboard
 
 ### Purpose
 
@@ -61,7 +61,7 @@ Provides a high-level overview of the company's financial performance.
 
 ---
 
-## 2️⃣ Sales Analysis
+## 2️ Sales Analysis
 
 ### Purpose
 
@@ -83,7 +83,7 @@ Analyze revenue performance across products, countries, and customer segments.
 
 ---
 
-## 3️⃣ Profitability Analysis
+## 3️ Profitability Analysis
 
 ### Purpose
 
@@ -109,7 +109,7 @@ Evaluate the factors affecting business profitability.
 
 ---
 
-## 4️⃣ Discount Analysis
+## 4️ Discount Analysis
 
 ### Purpose
 
@@ -135,7 +135,7 @@ Measure the impact of discount strategies on profitability.
 
 ---
 
-## 5️⃣ Product Performance
+## 5️ Product Performance
 
 ### Purpose
 
@@ -157,7 +157,7 @@ Evaluate individual product performance.
 
 ---
 
-## 6️⃣ Country Analysis
+## 6️ Country Analysis
 
 ### Purpose
 
@@ -178,7 +178,7 @@ Compare business performance across different countries.
 
 ---
 
-## 7️⃣ Time Intelligence
+## 7️ Time Intelligence
 
 ### Purpose
 
