@@ -7,7 +7,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project analyzes two years (2013–2014) of financial sales data across 5 countries, 6 product lines, and 5 customer segments to uncover trends in revenue, profitability, and discounting behavior. The dashboard was built in Power BI Desktop and structured as an 8-page interactive report, moving from a high-level executive summary down to granular, drill-through product-level detail.
 
@@ -15,7 +15,7 @@ The goal was to simulate a real-world business intelligence deliverable — the 
 
 ---
 
-## 🎯 Business Questions Answered
+## Business Questions Answered
 
 - How are sales and profit trending month-over-month and year-over-year?
 - Which countries, segments, and products are the strongest and weakest performers?
@@ -25,7 +25,7 @@ The goal was to simulate a real-world business intelligence deliverable — the 
 
 ---
 
-## 🗂️ Dashboard Structure
+## Dashboard Structure
 
 | Page | Focus |
 |---|---|
@@ -40,7 +40,7 @@ The goal was to simulate a real-world business intelligence deliverable — the 
 
 ---
 
-## 📊 Key Insights
+## Key Insights
 
 - **Total Sales:** ₹118.73M | **Gross Sales:** ₹127.93M | **Total Profit:** ₹16.89M | **Profit Margin:** 14.23%
 - **Government** is the top-performing segment (~44% of sales), followed by **Small Business** (~36%) and **Enterprise** (~17%)
@@ -52,7 +52,7 @@ The goal was to simulate a real-world business intelligence deliverable — the 
 
 ---
 
-## 🧠 Approach & Methodology
+## Approach & Methodology
 
 1. **Data validation** — Cross-checked totals (sales, profit, units sold) across pages to ensure consistency after aggregations and filters.
 2. **KPI design** — Selected headline metrics (Sales, Profit, Margin %, Discount %) that map directly to how sales/finance teams review performance.
@@ -62,7 +62,7 @@ The goal was to simulate a real-world business intelligence deliverable — the 
 
 ---
 
-## 🛠️ Tools & Skills Demonstrated
+## Tools & Skills Demonstrated
 
 - Power BI Desktop (data modeling, DAX measures, report design)
 - DAX for Time Intelligence (YTD, YoY Growth %, Prior Year comparisons)
@@ -72,7 +72,7 @@ The goal was to simulate a real-world business intelligence deliverable — the 
 
 ---
 
-## 📁 Files
+## Files
 
 - `Financial_Sample.xlsx` — source dataset
 - `Financial_analysis.pbix` — Power BI project file
@@ -80,7 +80,7 @@ The goal was to simulate a real-world business intelligence deliverable — the 
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - Add profitability forecasting using historical trend lines
 - Build a discount-optimization view to flag segments where discounting is eroding margin without driving proportional volume
