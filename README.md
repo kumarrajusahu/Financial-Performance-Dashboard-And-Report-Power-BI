@@ -1,398 +1,87 @@
-# Financial Performance Dashboard | Power BI
+# Financial Sales & Profitability Analysis — Power BI Dashboard
 
-![Power BI](https://img.shields.io/badge/Tool-Power%20BI-F2C811?logo=powerbi&logoColor=black)
-![DAX](https://img.shields.io/badge/DAX-Time%20Intelligence-blue)
-![Excel](https://img.shields.io/badge/Dataset-Microsoft%20Financial%20Sample-green)
-
-## Project Overview
-
-This project presents an **interactive Financial Performance Dashboard** developed in **Microsoft Power BI** using Microsoft's Financial Sample dataset.
-
-The objective of this project is to transform raw financial data into meaningful business insights that help management monitor revenue, profitability, product performance, regional performance, discount effectiveness, and year-over-year business growth.
-
-The dashboard is designed from the perspective of a **Financial Data Analyst**, focusing on executive reporting and strategic decision-making.
+**Author:** Raju Kumar Sahu
+**Tool:** Power BI Desktop
+**Dataset:** Financial_Sample.xlsx (700 transactions, 2013–2014)
+**Type:** End-to-end multi-page BI dashboard (8 report pages)
 
 ---
 
-# Business Objectives
+## 📌 Project Overview
 
-This dashboard answers the following business questions:
+This project analyzes two years (2013–2014) of financial sales data across 5 countries, 6 product lines, and 5 customer segments to uncover trends in revenue, profitability, and discounting behavior. The dashboard was built in Power BI Desktop and structured as an 8-page interactive report, moving from a high-level executive summary down to granular, drill-through product-level detail.
 
-- Which products generate the highest sales and profit?
-- Which countries contribute the most revenue?
-- Are discounts improving profitability?
-- Which customer segments drive business growth?
-- How has the business performed compared to the previous year?
-- Which products contribute to the majority of total sales?
-- What are the major drivers of profitability?
+The goal was to simulate a real-world business intelligence deliverable — the kind a data analyst would hand to sales, finance, and leadership teams to support quarterly reviews and strategic decisions.
 
 ---
 
-# Dashboard Pages
+## 🎯 Business Questions Answered
 
-## 1️ Executive Dashboard
-
-### Purpose
-
-Provides a high-level overview of the company's financial performance.
-
-### KPIs
-
-- Total Sales
-- Gross Sales
-- Total Profit
-- Units Sold
-- Profit Margin %
-- Discount %
-
-### Visuals
-
-- Sales Trend
-- Sales vs Profit
-- Sales by Segment
-- Sales by Country
-
-### Key Business Insight
-
-- Overall sales exceeded **$118M**, generating approximately **$16.9M** in profit.
-- Government and Enterprise segments contribute the largest share of revenue.
-- Sales demonstrate consistent growth throughout the reporting period.
-- Discounts account for nearly **7%** of Gross Sales.
+- How are sales and profit trending month-over-month and year-over-year?
+- Which countries, segments, and products are the strongest and weakest performers?
+- How does discounting affect profit margin across segments?
+- Which product-country-segment combinations are most and least profitable?
+- What does year-to-date performance look like, and how does it compare to prior year?
 
 ---
 
-## 2️ Sales Analysis
+## 🗂️ Dashboard Structure
 
-### Purpose
-
-Analyze revenue performance across products, countries, and customer segments.
-
-### Visuals
-
-- Sales by Product
-- Sales by Country
-- Ribbon Chart (Product Ranking)
-- Sales Matrix
-
-### Key Business Insight
-
-- Paseo is the highest-selling product.
-- USA generates the largest share of revenue.
-- Product rankings vary across months, indicating changing customer demand.
-- Sales are concentrated within a few high-performing products.
+| Page | Focus |
+|---|---|
+| **1. Executive Summary** | Headline KPIs (Total Sales, Gross Sales, Profit, Units Sold, Profit Margin %, Discount %), sales trend by month/year, sales by country and segment |
+| **2. Sales Analysis** | Sales breakdown by month & product, by country, and by product mix |
+| **3. Profitability Analysis** | Profit by quarter (waterfall view), profit by product/country matrix, gross sales vs. profit by segment |
+| **4. Discount Analysis** | Sales and profit by discount band, profit vs. discount % by segment over time |
+| **5. Product Performance** | Best/worst performing products, decomposition tree (country → product → segment) |
+| **6. Country Analysis** | Sales, profit, margin, and units sold broken down by country |
+| **7. Time Intelligence** | YTD sales, YTD profit, YoY growth %, prior-year sales comparison |
+| **8. Drill-Through (Product)** | Product-level drill-through page showing monthly and country-level detail for a selected product |
 
 ---
 
-## 3️ Profitability Analysis
+## 📊 Key Insights
 
-### Purpose
-
-Evaluate the factors affecting business profitability.
-
-### KPIs
-
-- Total Profit
-- Profit Margin %
-- Average Selling Price
-
-### Visuals
-
-- Waterfall Chart
-- Scatter Chart
-- Profit Heat Map
-
-### Key Business Insight
-
-- Cost of Goods Sold (COGS) is the largest reduction in revenue.
-- Higher sales do not always translate into higher profit.
-- Several products maintain strong margins with relatively low sales volumes.
+- **Total Sales:** ₹118.73M | **Gross Sales:** ₹127.93M | **Total Profit:** ₹16.89M | **Profit Margin:** 14.23%
+- **Government** is the top-performing segment (~44% of sales), followed by **Small Business** (~36%) and **Enterprise** (~17%)
+- **Paseo** is the strongest product by both sales and profit; **Velo** has the weakest profit margin despite solid sales volume
+- **France and Germany** post the highest profit margins (15.5–15.7%), while the **United States** has the highest sales volume but the lowest margin (~12%) — signaling heavier discounting or a costlier product mix
+- Profit **spikes sharply in Q4**, driven largely by October and December
+- Sales dipped seasonally around **August**, consistent across both years
+- The **Enterprise** segment shows negative profit in at least one product/region combination, flagging it for margin review
 
 ---
 
-## 4️ Discount Analysis
+## 🧠 Approach & Methodology
 
-### Purpose
-
-Measure the impact of discount strategies on profitability.
-
-### KPIs
-
-- Total Discount
-- Average Discount
-- Discount Impact %
-
-### Visuals
-
-- Discount Band vs Sales
-- Discount Band vs Profit
-- Discount vs Profit Scatter Chart
-
-### Key Business Insight
-
-- Moderate discounts increase sales without significantly reducing profit.
-- Excessive discounts negatively impact profitability.
-- Certain products maintain profitability without aggressive discounting.
+1. **Data validation** — Cross-checked totals (sales, profit, units sold) across pages to ensure consistency after aggregations and filters.
+2. **KPI design** — Selected headline metrics (Sales, Profit, Margin %, Discount %) that map directly to how sales/finance teams review performance.
+3. **Visual layout** — Structured the report as a narrative: summary → detailed sales → profitability → discounting → product/country deep dives → time trends → drill-through, so a reader can go as broad or as deep as needed.
+4. **Time intelligence** — Built YTD and YoY growth measures to support period-over-period comparison, a standard requirement in financial reporting.
+5. **Interactivity** — Added slicers (Year/Month), a decomposition tree, and a drill-through page so stakeholders can self-serve deeper cuts of the data without needing a new report built for them.
 
 ---
 
-## 5️ Product Performance
+## 🛠️ Tools & Skills Demonstrated
 
-### Purpose
-
-Evaluate individual product performance.
-
-### Visuals
-
-- Best Product
-- Worst Product
-- Pareto Chart
-- Decomposition Tree
-- Product Performance Matrix
-
-### Key Business Insight
-
-- Paseo contributes the highest revenue and profit.
-- Pareto Analysis shows that a small number of products generate the majority of revenue.
-- Decomposition Tree identifies Country, Segment, and Discount Band as major profit drivers.
+- Power BI Desktop (data modeling, DAX measures, report design)
+- DAX for Time Intelligence (YTD, YoY Growth %, Prior Year comparisons)
+- Data visualization design (KPI cards, waterfall charts, scatter plots, decomposition tree, treemap, drill-through)
+- Business-oriented KPI selection and dashboard storytelling
+- Data validation and cross-checking across report pages
 
 ---
 
-## 6️ Country Analysis
+## 📁 Files
 
-### Purpose
-
-Compare business performance across different countries.
-
-### Visuals
-
-- Filled Map
-- Sales by Country
-- Profit by Country
-- Country Performance Table
-
-### Key Business Insight
-
-- USA is the strongest market in terms of both sales and profitability.
-- Canada consistently ranks as the second-largest contributor.
-- Mexico presents potential opportunities for business expansion.
+- `Financial_Sample.xlsx` — source dataset
+- `Financial_analysis.pbix` — Power BI project file
+- `Financial_analysis.pdf` — exported dashboard (all 8 pages)
 
 ---
 
-## 7️ Time Intelligence
-
-### Purpose
-
-Track business performance over time.
-
-### KPIs
-
-- Sales YTD
-- Previous Year YTD Sales
-- YoY Growth %
-
-### Visuals
-
-- YTD Sales vs Previous Year YTD Sales
-- Monthly Sales Trend
-- YoY Growth Trend
-
-### Key Business Insight
-
-- Business performance improved compared to the previous year.
-- Sales display clear seasonal trends.
-- Year-over-Year analysis indicates positive revenue growth.
-
----
-
-# DAX Measures
-
-This project includes several custom DAX calculations.
-
-### Sales Measures
-
-- Total Sales
-- Gross Sales
-- Total Profit
-- Units Sold
-
-### Financial KPIs
-
-- Profit Margin %
-- Discount %
-- Average Selling Price
-
-### Time Intelligence
-
-- Sales YTD
-- Previous Year Sales
-- Previous Year YTD Sales
-- YoY Growth %
-
----
-
-# Analytical Techniques Used
-
-- KPI Development
-- Financial Ratio Analysis
-- Time Intelligence
-- Pareto Analysis (80/20 Principle)
-- Root Cause Analysis using Decomposition Tree
-- Profitability Analysis
-- Trend Analysis
-- Geographical Analysis
-- Comparative Analysis
-- Executive Reporting
-
----
-
-# Tools & Technologies
-
-- Microsoft Power BI
-- Power Query
-- DAX
-- Data Modeling
-- Microsoft Excel
-
----
-
-# Dataset
-
-**Dataset:** Microsoft Financial Sample Dataset
-
-The dataset contains financial transactions including:
-
-- Sales
-- Gross Sales
-- Discounts
-- Profit
-- Units Sold
-- Product
-- Segment
-- Country
-- Date
-- Discount Band
-
----
-
-# Dashboard Preview
-
-## Executive Dashboard
-
-> *(Add Screenshot)*
-
----
-
-## Sales Analysis
-
-> *(Add Screenshot)*
-
----
-
-## Profitability Analysis
-
-> *(Add Screenshot)*
-
----
-
-## Discount Analysis
-
-> *(Add Screenshot)*
-
----
-
-## Product Performance
-
-> *(Add Screenshot)*
-
----
-
-## Country Analysis
-
-> *(Add Screenshot)*
-
----
-
-## Time Intelligence
-
-> *(Add Screenshot)*
-
----
-
-# Repository Structure
-
-```
-Financial-Performance-Dashboard
-│
-├── Dashboard
-│   └── Financial Dashboard.pbix
-│
-├── Dataset
-│   └── Financial Sample.xlsx
-│
-├── Images
-│   ├── Executive Dashboard.png
-│   ├── Sales Analysis.png
-│   ├── Profitability Analysis.png
-│   ├── Discount Analysis.png
-│   ├── Product Performance.png
-│   ├── Country Analysis.png
-│   └── Time Intelligence.png
-│
-├── README.md
-│
-└── LICENSE
-```
-
----
-
-# Skills Demonstrated
-
-- Business Intelligence
-- Financial Analysis
-- Dashboard Development
-- Data Modeling
-- DAX Programming
-- Time Intelligence
-- Data Visualization
-- Executive Reporting
-- Analytical Thinking
-- Business Storytelling
-
----
-
-# Business Impact
-
-This dashboard enables business stakeholders to:
-
-- Monitor financial performance in real time.
-- Identify high-performing products and markets.
-- Optimize discount strategies.
-- Improve profitability through data-driven decisions.
-- Compare current performance with previous years.
-- Prioritize products contributing the highest business value.
-
----
-
-# About Me
-
-**Raju kumar sahu**
-
-Aspiring Data Analyst | Power BI Developer | SQL | Python | Excel
-
-### Technical Skills
-
-- Power BI
-- SQL Server
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Microsoft Excel
-- Data Analysis
-- Data Visualization
-
-Email: your-email@example.com
-
-LinkedIn: https://linkedin.com/in/your-profile
-
-GitHub: https://github.com/yourusername
+## 🚀 Future Improvements
+
+- Add profitability forecasting using historical trend lines
+- Build a discount-optimization view to flag segments where discounting is eroding margin without driving proportional volume
+- Add row-level security to simulate country-manager-specific dashboard views
