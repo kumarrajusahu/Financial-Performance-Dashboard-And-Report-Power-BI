@@ -9,7 +9,7 @@
 
 ## Project Overview
 
-This project analyzes two years (2013–2014) of financial sales data across 5 countries, 6 product lines, and 5 customer segments to uncover trends in revenue, profitability, and discounting behavior. The dashboard was built in Power BI Desktop and structured as an 8-page interactive report, moving from a high-level executive summary down to granular, drill-through product-level detail.
+This project analyzes two years (2013–2014) of financial sales data across 5 countries, 6 product lines, and 5 customer segments to uncover trends in revenue, profitability, and discounting behavior. The dashboard structured as an 8-page interactive report, moving from a high-level executive summary down to granular, drill-through product-level detail.
 
 The goal was to simulate a real-world business intelligence deliverable — the kind a data analyst would hand to sales, finance, and leadership teams to support quarterly reviews and strategic decisions.
 
